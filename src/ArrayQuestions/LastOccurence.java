@@ -26,7 +26,7 @@ public class LastOccurence {
 		}
 		System.out.println("\nEnter the element whose last occuring index you want to know :");
 		int num = sc.nextInt();
-		System.out.println("This number occurs:"+LastOccurence.lastOccurence(a, num));
+		System.out.println("This number occurs last at:"+LastOccurence.lastOccurence(a, num)+" index position");
 	}
 
 }
